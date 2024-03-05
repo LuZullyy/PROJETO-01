@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.interface>section {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page1 {
+    background-image: url(https://s2.glbimg.com/rKq2WZ6FCFPCXmugfhDiFGAHikU=/e.glbimg.com/og/ed/f/original/2021/11/30/giphy_6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page2 {
+    background-image: url(https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page3 {
+    background-image: url(https://i.pinimg.com/originals/bb/d8/a2/bbd8a2470f1cf5587bbbeb6af3672fc5.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page4 {
+    background-image: url(https://gifman.net/wp-content/uploads/2021/10/naruto-gif-cara-engracada-01.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page5 {
+    background-image: url(https://media4.giphy.com/media/dUQL2bKltOU7cO9Maw/200.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
